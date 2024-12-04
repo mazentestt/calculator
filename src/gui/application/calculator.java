@@ -345,6 +345,7 @@ public class calculator extends javax.swing.JFrame {
 
     private void numbersaction(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_numbersaction
         // TODO add your handling code here:
+        System.out.println("hello");
         switch (evt.getActionCommand()) {
             case "0":
                 if (edit_text.getText().length() > 0) {
